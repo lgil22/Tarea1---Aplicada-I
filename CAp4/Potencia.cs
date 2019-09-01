@@ -15,10 +15,10 @@ namespace CAP2.CAp4
             double potencia = 0;
             double r = 0;
 
-            Console.WriteLine("Ingrese Numero a elevar");
+            Console.WriteLine("Ingrese numero a elevar");
             numero = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese Potencia");
+            Console.WriteLine("Ingrese potencia");
             potencia = int.Parse(Console.ReadLine());
             r = numero;
 

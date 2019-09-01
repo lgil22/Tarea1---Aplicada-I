@@ -21,7 +21,7 @@ namespace CAP2.CAp3
             }
             else
             {
-                Console.WriteLine("No es par");
+                Console.WriteLine("Numero es impar");
                 Console.Read();
                 /*new NumSemana().Dias();
                 Console.ReadLine();

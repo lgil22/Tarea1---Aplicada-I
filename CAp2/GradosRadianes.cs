@@ -12,7 +12,7 @@ namespace CAP2.CAp2
         {
             {
                 float num;
-                Console.WriteLine("Ingrese cantidad que desea convertir a radianes ");
+                Console.WriteLine("Ingrese cantidad que desea convertir a Radianes ");
                 num = float.Parse(Console.ReadLine());
                 var resultado = num * 0.017;
                 Console.WriteLine("Resultado es: {0}", resultado);
