@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CAP2.CAp2
 {
-    class PoligonoRegular
+    public class PoligonoRegular
     {
-            static void Main(string[] args)
+            public void PoligR()
             {
                 float lados = 0, lado = 0, perimetro;
                 Console.WriteLine("Introduzca numero de Lados: ");
@@ -21,10 +21,10 @@ namespace CAP2.CAp2
 
                 Console.WriteLine("El perimetro es: {0} ", perimetro);
                 Console.Read();
-                new GradosRadianes().Conversion();
+                /*new GradosRadianes().Conversion();
                 Console.Read();
                 new CambioDolarEuro().Cambio();
-                Console.Read();
+                Console.Read();*/
         }
         
     }

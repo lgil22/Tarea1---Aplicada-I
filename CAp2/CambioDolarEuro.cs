@@ -14,7 +14,7 @@ namespace CAP2.CAp2
             double euros = 0;
             string valor = "";
 
-            Console.WriteLine("Ingrese la taza del dia:");
+            Console.WriteLine("Ingrese la tasa del dia:");
             valor = Console.ReadLine();
             euros = Convert.ToDouble(valor);
             Console.WriteLine("Ingrese el monto de dolares a convertir a Euros:");
@@ -23,6 +23,7 @@ namespace CAP2.CAp2
             double conversion = dolares * euros;
 
             Console.WriteLine("{0} Dolares = {1} Euros", dolares, conversion);
+            Console.Read();
         }
     }
 }

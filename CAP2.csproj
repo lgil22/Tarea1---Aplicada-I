@@ -43,13 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAp1\Nombre.cs" />
+    <Compile Include="CAp1\Nombre2.cs" />
     <Compile Include="CAp2\CambioDolarEuro.cs" />
     <Compile Include="CAp2\GradosRadianes.cs" />
     <Compile Include="CAp2\PoligonoRegular.cs" />
+    <Compile Include="CAp3\AreaPer.cs" />
+    <Compile Include="CAp3\NumSemana.cs" />
+    <Compile Include="CAp3\ParImpar.cs" />
+    <Compile Include="CAp4\EdadPromedio.cs" />
+    <Compile Include="CAp4\Mult.cs" />
+    <Compile Include="CAp4\Potencia.cs" />
+    <Compile Include="Menus.cs" />
+    <Compile Include="Principal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
