@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CAP2.CAp4
 {
-    class Potencia
+    public class Potencia
     {
         public void Elevado()
         {

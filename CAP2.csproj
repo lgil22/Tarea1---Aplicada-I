@@ -57,6 +57,15 @@
     <Compile Include="Menus.cs" />
     <Compile Include="Principal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tarea2\AgendaTelefonica.cs" />
+    <Compile Include="Tarea2\Arreglo.cs" />
+    <Compile Include="Tarea2\Cadena.cs" />
+    <Compile Include="Tarea2\DosCadenas.cs" />
+    <Compile Include="Tarea2\FactorialNumero.cs" />
+    <Compile Include="Tarea2\Hash.cs" />
+    <Compile Include="Tarea2\HORAampm.cs" />
+    <Compile Include="Tarea2\JaggedFuncion.cs" />
+    <Compile Include="Tarea2\PromedioCalif.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
