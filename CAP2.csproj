@@ -66,12 +66,11 @@
     <Compile Include="Tarea2\HORAampm.cs" />
     <Compile Include="Tarea2\JaggedFuncion.cs" />
     <Compile Include="Tarea2\PromedioCalif.cs" />
+    <Compile Include="Tarea3\StructTienda.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tarea3\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
