@@ -5,6 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using CAP2.Tarea3;
+
+
 
 namespace CAP2
 {
@@ -13,8 +17,10 @@ namespace CAP2
         static void Main(string[] args)
         {
             Menus.MenuPrincipal();
- 
-            }
-        }
+  
+         }
+
 
     }
+
+}

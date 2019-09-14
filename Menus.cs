@@ -1,8 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using CAP2.Tarea3;
+
 
 namespace CAP2
 {
@@ -11,7 +17,7 @@ namespace CAP2
         public static void MenuPrincipal()
         {
             Console.Clear();
-            Console.Write("1.Ejercicios Capitulo #1\n" + "2.Ejercicios Capitulo #2\n" + "3.Ejercicios Capitulo #3\n" + "4.Ejercicios Capitulo #4\n" + "5.Ejercicios Capitulo #5\n" + "6.Ejercicios Capitulo #6\n" + "7.Ejercicios Capitulo #7\n" + "8.Ejercicios Capitulo #8\n\n" +
+            Console.Write("1.Ejercicios Capitulo #1\n" + "2.Ejercicios Capitulo #2\n" + "3.Ejercicios Capitulo #3\n" + "4.Ejercicios Capitulo #4\n" + "5.Ejercicios Capitulo #5\n" + "6.Ejercicios Capitulo #6\n" + "7.Ejercicios Capitulo #7\n" + "8.Ejercicios Capitulo #8\n" + "9.Ejercicios Capitulo #9\n\n" +
                 "Digite la Opcion Deseada: ");
 
             int opc = int.Parse(Console.ReadLine());
@@ -39,7 +45,7 @@ namespace CAP2
                         Console.Clear();
                         Menu5();
                         break;
-                   case 6:
+                    case 6:
                         Console.Clear();
                         Menu6();
                         break;
@@ -51,10 +57,14 @@ namespace CAP2
                         Console.Clear();
                         Menu8();
                         break;
+                    case 9:
+                        Console.Clear();
+                        Menu9();
+                        break;
 
                 }
 
-                
+
             }
         }
         public static void Menu1()
@@ -172,11 +182,11 @@ namespace CAP2
         }
         public static void Menu5()
         {
-            Console.Write("1.Ejercicio 4: Factorial\n" + "2.Ejercicio 5: Cadena\n\n"  +
+            Console.Write("1.Ejercicio 4: Factorial\n" + "2.Ejercicio 5: Cadena\n\n" +
                 "Digite la Opcion Deseada: ");
 
             int opc = int.Parse(Console.ReadLine());
-               {
+            {
                 switch (opc)
                 {
                     case 1:
@@ -195,10 +205,10 @@ namespace CAP2
         }
         public static void Menu6()
         {
-            Console.Write("1.Ejercicio 1,2,3: Promedio y Calificaciones\n"  + "2.Ejercicio 4: Jagged Funcion\n" +
+            Console.Write("1.Ejercicio 1,2,3: Promedio y Calificaciones\n" + "2.Ejercicio 4: Jagged Funcion\n" +
                 "\nDigite la Opcion Deseada: ");
             int opc = int.Parse(Console.ReadLine());
-             {
+            {
                 switch (opc)
                 {
                     case 1:
@@ -260,7 +270,7 @@ namespace CAP2
                         Tarea2.HORAampm hor = new Tarea2.HORAampm();
                         hor.AMPM();
                         break;
-                   case 2:
+                    case 2:
                         Console.Clear();
                         Tarea2.DosCadenas cad = new Tarea2.DosCadenas();
                         cad.cadens();
@@ -271,6 +281,17 @@ namespace CAP2
             }
         }
 
+        private static void Menu9()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new estructura());
+
+
+
+            Console.Clear();
+            Console.Write("1.Ejercicios Capitulo #9\n" +
+                "Digite la Opcion Deseada: ");
 
 
 
@@ -288,9 +309,7 @@ namespace CAP2
 
 
 
-
-
-
+        }
 
     }
 
