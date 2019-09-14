@@ -68,6 +68,9 @@
     <Compile Include="Tarea2\HORAampm.cs" />
     <Compile Include="Tarea2\JaggedFuncion.cs" />
     <Compile Include="Tarea2\PromedioCalif.cs" />
+    <Compile Include="Tarea3\EnumeracionNeumaticos.cs" />
+    <Compile Include="Tarea3\Escuela.cs" />
+    <Compile Include="Tarea3\EstructuraMascota.cs" />
     <Compile Include="Tarea3\EstructuraTienda.cs" />
     <Compile Include="Tarea3\estructura.cs">
       <SubType>Form</SubType>
@@ -75,6 +78,10 @@
     <Compile Include="Tarea3\estructura.Designer.cs">
       <DependentUpon>estructura.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tarea3\InventarioTienda.cs" />
+    <Compile Include="Tarea3\PoligonoPropiedades.cs" />
+    <Compile Include="Tarea3\Poligonos.cs" />
+    <Compile Include="Tarea3\PoligonoString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
